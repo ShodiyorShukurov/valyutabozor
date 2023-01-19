@@ -1,0 +1,87 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>39-dars</title>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/css/bootstrap.min.css
+    ">
+    <link rel="stylesheet" href="./css/main.css">
+    <link rel="stylesheet" href="./css/normalize.css">
+</head>
+<body>
+    
+    <div class="container">
+        <div class="row mx-auto">
+            <!-- <p class="text">Hello world!</p>
+            <p id="text">Hello world!</p>
+            <p class="nimadir">Hello world!</p> -->
+
+            <div class="col-6 mt-3">
+                <div class="card">
+                    <div class="card-header">
+                        <h3 class="card-title text-center">
+                         Valyuta bozor!
+                        </h3>
+                    </div>
+                    <div class="card-body">
+                        <form class="currency">
+                            <label>
+                                <input class="currency__input form-control" type="number" placeholder="Currency value">
+                            </label>
+
+                            <label>
+                                <select class="currency__select form-control">
+                                    <option value="choose" selected disabled hidden>Choose currency</option>
+                                    <option value="USD">USD</option>
+                                    <option value="EURO">EURO</option>
+                                    <option value="YUAN">YUAN</option>
+                                    <option value="RUBL">RUBL</option>
+                                    <option value="DINOR">DINOR</option>
+                                    <option value="FUNT">FUNT</option>
+                                    <option value="JOHN-WICK">JOHN WICK GOLD</option>
+                                </select>
+                            </label>
+
+                            <button class="btn btn-primary currency__btn" type="submit">Change currency</button>
+                        </form>
+                    </div>
+
+                    <div class="card-footer">
+                        <div class="currency-result"></div>
+                    </div>
+                </div>
+            </div>
+
+
+            <footer class="site-footer">
+                <p class="title mt-4">Create by: Shodiyor Shukurov</p>
+                <a class="footer-link" href="https://instagram.com/shodiyor_24.12">
+                    <img src="./images/Instagram_logo_2016.svg.webp" width="40" height="40" alt="instagram">
+                </a>
+                <a class="footer-link" href="https://telegram.com/shukurov2004" >
+                    <img src="./images/telegram-app.png" width="40" height="40" alt="Telegram">
+                </a>
+            </footer>
+            <!-- <div class="col-4">
+                <div class="card">
+                    <div class="card-header">
+                        <h3 class="card-title">Switch bulb</h3>
+                    </div>
+                    <div class="card-body">
+                        <img class="card-img bulb-img" src="./images/pic_bulboff.gif" alt="Lampa">
+                    </div>
+                    <div class="card-footer d-flex justify-content-between">
+                        <button class="btn btn-primary" type="button" onclick="switchOn()">Bulb on</button>
+                        <button class="btn btn-danger" type="button" onclick="switchOff()">Bulb off</button>
+                    </div>
+                </div>
+            </div> -->
+        </div>
+    </div>
+
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/js/bootstrap.bundle.min.js"></script>
+    <script src="./js/main.js"></script>
+</body>
+</html>
